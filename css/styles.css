@@ -1,14 +1,69 @@
 img {
   width: 400px;
   border-radius: 20px;
-  
+  align-items: normal;
 }
-
-.username {
-  font-weight: bold;
-  font-style: italic;
+.des {
+  text-align: center;
+  text-shadow: #211701;
   color: aliceblue;
-}
+  background-color: #7b8436b4;
+  font-size: 60px;
+  font-family: fantasy;
+
+  }
+
+.div {
+  align-items: center;
+
+  }
+  .pic1 {
+  display: grid;
+  justify-content: left;
+  }
+  .pic2 {
+  display: grid;
+  justify-content: left;
+  }
+
+  .pic3 {
+  display: grid;
+  justify-content: left;
+
+  }
+  .des1 {
+    text-align: left;
+  font-size: 20px;
+  font-family: fantasy;
+  }
+  .des2 {
+    text-align: left;
+  font-size: 20px;
+  font-family: fantasy;
+  }
+  .des3 {
+    text-align: left;
+  font-size: 20px;
+  font-family: fantasy;
+  }
+
+  .size-6 {
+  display: grid;
+ justify-content: left;
+ width: 25px;
+ height: 25px;
+ 
+
+  }
+  .vidd {
+  font-size: 25px;
+  color: aliceblue;
+  font-family: fantasy;
+  background-color: rgba(240, 248, 255, 0.12);
+
+  }
+
+
 .quote {
   font-weight: bold;
   font-style: italic;
@@ -22,15 +77,16 @@ header {
   padding: 30px;
   text-align: center;
   font-size: 35px;
+  font-family: fantasy;
   color: white;
 }
 a:link {
-  color: rgb(237, 255, 240);
+  color: rgb(187, 203, 179);
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: rgb(19, 74, 12);
+  color: rgb(187, 203, 179);
   background-color: transparent;
   text-decoration: none;
 }
@@ -48,13 +104,75 @@ footer {
   background-color: #211701;
   padding: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  font-family: fantasy;
   color: white;
 }
 
 body {
+
+  margin: 0px;
   background-image:
   linear-gradient(rgba(36, 46, 28, 0.36), rgba(255, 255, 255, 0.642)),
   url(https://images.unsplash.com/photo-1426170042593-200f250dfdaf?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 background-size: cover;
+}
+.m {
+  background-color: #7b8436b4;
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+  
+}
+.t {
+  background-color: #7b8436b4;
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+}
+.k {
+  background-color: #211701;
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+}
+.m2 {
+  
+  padding: 10px;
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  font-family: fantasy;
+}
+.t2 {
+  
+  padding: 10px;
+  text-align: justify;
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+}
+.k2 {
+  
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: fantasy;
+}
+
+
+.video {
+  
+  padding: 250px;
+  align-self: center;
+}
+.img1 {
+  align-content: center;
 }
